@@ -1,1 +1,389 @@
- 
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    font-size: 3vmin;
+    margin: 0;
+    background-color: rgb(255,
+            202,
+            212);
+
+}
+
+p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+ol,
+ul {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    padding-inline-start: 2vmin;
+}
+
+.border {
+    border-radius: 5vmin;
+}
+
+.center {
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    padding: 3vmin;
+}
+
+.normal {
+    padding: 3vmin;
+}
+
+header,
+footer {
+    /* display: flex; */
+    color: aliceblue;
+    font-size: 2vmin;
+}
+
+.header-slogan {
+    padding: 0 2%;
+
+}
+
+.find-left-bar,
+.bottom-center-bar {
+    background-color: rgb(157,
+            129,
+            137);
+
+}
+
+.news-left-bar,
+.right-bar {
+    background-color: rgb(244,
+            172,
+            183);
+}
+
+.header,
+.footer-bar {
+    /* display: flex; */
+    min-height: 10vh;
+    background-color: rgb(40,
+            88,
+            123);
+    padding: 1% 2%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.header {
+    border-bottom: 0.7vmin solid rgb(55,
+            113,
+            142);
+}
+
+.container {
+    /* display: grid; */
+    /* grid-template-columns: 20% 60% 20%;
+    min-height: 80vh; */
+    /* float: right; */
+    /* margin: 2vmin; */
+}
+
+.btn-group{
+    /* padding: 3vmin ; */
+    display: table-cell;
+        vertical-align: middle;
+        
+} 
+
+.left-bar{
+    /* float: left; */
+    /* display: inline-block; */
+    margin: 0;
+    width: 20vw;
+}
+
+.btn-group .button {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(55,
+            113,
+            142);
+
+    border: 0.3vmin solid rgb(55,
+            113,
+            142);
+    border-radius: 2vmin;
+    color: white;
+    padding: 2vmin 2vmin;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    width: 15vw;
+    display: block;
+    margin: 2vmin auto auto ;
+    
+    font-size: 2.5vmin;
+    
+}
+
+.btn-group .button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+.center-bar {
+    
+    margin: 0;
+    width: 60vw;
+    /* margin: 0vmin 2vmin; */
+}
+
+.image {
+    
+    width: 50vw;
+    height: auto;
+    
+    /* height: 700px; */
+    /* max-height: 650px; */
+    object-fit: contain;
+}
+
+.left-bar,
+.center-bar {
+    /* display: flex; */
+    flex-direction: column;
+}
+
+.news-left-bar,
+.main-center-bar {
+    /* flex: 1; */
+
+}
+
+.find-left-bar,
+.bottom-center-bar {
+    flex: 0;
+}
+
+.right-bar{
+    /* display: inline-block; */
+    margin: 0;
+        /* float: right; */
+            width: 20vw;
+}
+
+.footer-bar {
+    border-top: 0.7vmin solid rgb(55,
+            113,
+            142);
+    ;
+}
+
+.footer-slogan {
+    padding: 0 2% 0 0;
+}
+
+
+
+.find-left-bar,
+.bottom-center-bar,
+.news-left-bar,
+.right-bar {
+    border: 0.3vmin solid white;
+}
+
+li {
+    margin-bottom: 2vmin;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tbody {
+    border: none;
+}
+
+/* ///////////////////////////////////// */
+
+.main-table{
+
+}
+
+
+.left-bar-td{
+    min-width: 20vw;
+/* max-width: 20vw; */
+    vertical-align: top;
+    
+    /* Set the height of the parent container */
+    border: 1px solid #000;
+    /* For visualization purposes */
+
+    
+    /* Ensure the <td> takes up the full width of the table cell */
+    /* height: 100%; */
+    /* Ensure the <td> takes up the full height of the table row */
+    padding: 0;
+    /* Remove any padding or margins on the <td> */
+    position: relative;
+    /* Needed for child absolute positioning */
+}
+
+.left-bar{
+        
+        width: 100%;
+        
+        /* height: 100%; */
+
+        max-width: 20vw;    
+        
+        /* position: absolute;
+        
+        top: 0;
+        
+        left: 0;
+        
+        bottom: 0;
+       
+        right: 0; */
+        
+    border: 1px solid #333;
+
+}
+
+.left-bar-table{
+    border-collapse: collapse;
+    vertical-align: sub;
+    height: 100%;
+    width: 100%;
+}
+
+.find-left-bar-tr{
+    /* height: 5%; */
+    width: 100%;
+}
+
+.news-left-bar-tr{
+    width: 100%;
+    height: 100%;
+}
+
+
+.find-left-bar {
+    
+    /* Set the height of find-left-bar to 10% of the parent height */
+    border: 1px solid #333;
+    /* For visualization purposes */
+    /* Add any other desired styles for find-left-bar */
+}
+
+.news-left-bar {
+   height: 100%;
+    width: 100%;
+    display: table;
+    /* Set the height of news-left-bar to 90% of the parent height */
+    border: 1px solid #555;
+    /* For visualization purposes */
+    /* Add any other desired styles for news-left-bar */
+}
+
+.center-bar-td {
+    max-width: 60vw;
+    vertical-align: unset;
+    display: table-cell;
+    /* Set the height of the parent container */
+    border: 1px solid #000;
+    /* For visualization purposes */
+    
+        
+    
+    /* Ensure the <td> takes up the full width of the table cell */
+    height: 100%;
+    /* Ensure the <td> takes up the full height of the table row */
+    padding: 0;
+    /* Remove any padding or margins on the <td> */
+    /* position: relative; */
+    /* Needed for child absolute positioning */
+}
+
+
+
+.center-bar{
+
+    width: 100%;
+        height: 100%;
+    
+    min-width: 60vw;
+
+   
+
+     /* position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+    bottom: 0;
+
+    right: 0;   */
+
+    border: 1px solid #333;
+}
+
+.center-bar-table {
+    border-collapse: collapse;
+    vertical-align: sub;
+    height: 100%;
+    width: 100%;
+}
+
+.main-center-bar-tr{
+    height: 100%;
+}
+
+.right-bar-td{
+   
+    max-width: 20vw;
+    vertical-align: top;
+
+
+    border: 1px solid #000;
+
+
+    
+
+    padding: 0; 
+
+    position: relative; 
+
+}
+
+.right-bar {
+    /* width: 100%; */
+    
+        height: 100%;
+    
+        max-width: 20vw;
+    
+        /* position: absolute;
+    
+        top: 0;
+
+        left: 0;
+
+        bottom: 0;
+
+        right: 0;    */
+       
+    
+        border: 1px solid #333;
+    
+}
