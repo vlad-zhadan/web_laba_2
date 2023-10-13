@@ -149,10 +149,8 @@ footer {
     
     width: 50vw;
     height: auto;
-    
-    /* height: 700px; */
-    /* max-height: 650px; */
     object-fit: contain;
+    padding: 1rem;
 }
 
 .left-bar,
@@ -161,16 +159,6 @@ footer {
     flex-direction: column;
 }
 
-.news-left-bar,
-.main-center-bar {
-    /* flex: 1; */
-
-}
-
-.find-left-bar,
-.bottom-center-bar {
-    flex: 0;
-}
 
 .right-bar{
     /* display: inline-block; */
@@ -193,9 +181,7 @@ footer {
 
 
 .find-left-bar,
-.bottom-center-bar,
-.news-left-bar,
-.right-bar {
+.bottom-center-bar{
     border: 0.3vmin solid white;
 }
 
@@ -211,179 +197,80 @@ tbody {
     border: none;
 }
 
-/* ///////////////////////////////////// */
-
-.main-table{
-
-}
-
-
-.left-bar-td{
-    min-width: 20vw;
-/* max-width: 20vw; */
-    vertical-align: top;
+.news-left-bar-td{
+    background-color: rgb(244,
+                172,
+                183);
     
-    /* Set the height of the parent container */
-    border: 1px solid #000;
-    /* For visualization purposes */
-
-    
-    /* Ensure the <td> takes up the full width of the table cell */
-    /* height: 100%; */
-    /* Ensure the <td> takes up the full height of the table row */
-    padding: 0;
-    /* Remove any padding or margins on the <td> */
-    position: relative;
-    /* Needed for child absolute positioning */
-}
-
-.left-bar{
-        
-        width: 100%;
-        
-        /* height: 100%; */
-
-        max-width: 20vw;    
-        
-        /* position: absolute;
-        
-        top: 0;
-        
-        left: 0;
-        
-        bottom: 0;
-       
-        right: 0; */
-        
-    border: 1px solid #333;
-
-}
-
-.left-bar-table{
-    border-collapse: collapse;
-    vertical-align: sub;
-    height: 100%;
-    width: 100%;
-}
-
-.find-left-bar-tr{
-    /* height: 5%; */
-    width: 100%;
-}
-
-.news-left-bar-tr{
-    width: 100%;
-    height: 100%;
-}
-
-
-.find-left-bar {
-    
-    /* Set the height of find-left-bar to 10% of the parent height */
-    border: 1px solid #333;
-    /* For visualization purposes */
-    /* Add any other desired styles for find-left-bar */
-}
-
-.news-left-bar {
-   height: 100%;
-    width: 100%;
-    display: table;
-    /* Set the height of news-left-bar to 90% of the parent height */
-    border: 1px solid #555;
-    /* For visualization purposes */
-    /* Add any other desired styles for news-left-bar */
-}
-
-.center-bar-td {
-    max-width: 60vw;
-    vertical-align: unset;
-    display: table-cell;
-    /* Set the height of the parent container */
-    border: 1px solid #000;
-    /* For visualization purposes */
-    
-        
-    
-    /* Ensure the <td> takes up the full width of the table cell */
-    height: 100%;
-    /* Ensure the <td> takes up the full height of the table row */
-    padding: 0;
-    /* Remove any padding or margins on the <td> */
-    /* position: relative; */
-    /* Needed for child absolute positioning */
-}
-
-
-
-.center-bar{
-
-    width: 100%;
-        height: 100%;
-    
-    min-width: 60vw;
-
-   
-
-     /* position: absolute;
-
-    top: 0;
-
-    left: 0;
-
-    bottom: 0;
-
-    right: 0;   */
-
-    border: 1px solid #333;
-}
-
-.center-bar-table {
-    border-collapse: collapse;
-    vertical-align: sub;
-    height: 100%;
-    width: 100%;
-}
-
-.main-center-bar-tr{
-    height: 100%;
+    border-radius: 5vmin;
 }
 
 .right-bar-td{
-   
+background-color: rgb(244,
+            172,
+            183);
+
+    border-radius: 5vmin;
+}
+
+.news-left-bar {
+    height: 100%;
+    width: 100%;
+    display: table;
+
+
+}
+
+.find-left-bar{
+    padding: 1rem;
+}
+
+.right-bar-td,
+.news-left-bar-td{
+    width: 20%;
+    min-width: 20vw;
     max-width: 20vw;
-    vertical-align: top;
+}
 
+.main-center-bar-td{
+    width: 60%;
+}
 
-    border: 1px solid #000;
-
-
-    
-
-    padding: 0; 
-
-    position: relative; 
-
+.bottom-center-bar{
+    padding: 1rem ;
 }
 
 .right-bar {
-    /* width: 100%; */
-    
-        height: 100%;
-    
-        max-width: 20vw;
-    
-        /* position: absolute;
-    
-        top: 0;
+    width: 100%;
 
-        left: 0;
+    height: 100%;
 
-        bottom: 0;
+    max-width: 20vw;
 
-        right: 0;    */
-       
-    
-        border: 1px solid #333;
-    
+
 }
+
+.main-center-bar{
+
+}
+
+.list-content{
+    margin: 3vmin;
+}
+
+.header-slogan,
+.footer-slogan{
+font-size: 150%;
+color: aliceblue;
+}
+
+.header-text,
+.footer-bar-list{
+    font-size: 75%;
+    color: aliceblue;
+}
+
+
+
+
+
