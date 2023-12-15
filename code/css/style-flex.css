@@ -27,7 +27,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 3vmin;
+    padding: 1vmin;
 }
 
 .normal {
@@ -86,7 +86,8 @@ footer {
     grid-template-columns: 20% 60% 20%; */
     display: flex;
     min-height: 80vh;
-    margin: 2vmin;
+    margin:  2vmin;
+    
 }
 
 /* .btn-group{
@@ -120,7 +121,7 @@ footer {
 
 .fixed-column {
 
-    flex: 0 0 15.5vw;
+    flex: 0 0 17%;
     /* 20% width, won't grow or shrink */
 }
 
@@ -147,7 +148,8 @@ footer {
 }
 
 .left-bar,
-.center-bar {
+.center-bar,
+.right-bar {
     display: flex;
     flex-direction: column;
 }
@@ -185,4 +187,8 @@ footer {
 
 li {
     margin-bottom: 2vmin;
+}
+
+.bottom-center-bar-text{
+    padding: 3vmin;
 }
